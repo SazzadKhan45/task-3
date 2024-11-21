@@ -165,6 +165,7 @@
     height: 482px;
     border-radius: 16px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    margin-bottom: 120px;
 }
 
 .joining-bg h4 {
@@ -182,7 +183,7 @@
     ;
 }
 
-.primary-btn{
+.primary-btn {
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
@@ -197,9 +198,85 @@
     margin-top: 40px;
 }
 
-.primary-btn a{
+.primary-btn a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 /* ----------- Join us now section style ended --------------*/
+
+/* ---------- Coming Soon offer section style start here --------*/
+
+.coming-soon {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.NEW-BEST-OFFER {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.coming-soon-info h4 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: capitalize;
+    margin: 16px 0
+}
+
+.coming-soon-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0 30px 0 0;
+}
+
+.coming-soon-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(255, 0, 0);
+    border-radius: 100%;
+    margin-right: 200px;
+}
+
+.coming-soon-image img {
+    width: 364px;
+    height: 364px;
+    padding: 20px;
+}
+
+.new-year h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.new-year p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 16px 0 40px 0;
+}
+
+.new-year img {
+    width: 140px;
+    height: 140px;
+}
+
+/* ---------- Coming Soon offer section style ended ----------*/
