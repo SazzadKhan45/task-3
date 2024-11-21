@@ -154,3 +154,52 @@
 }
 
 /* --------- party banner section style ended ----------- */
+
+/* ----------- Join us now section style start here --------------*/
+
+.joining-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
+
+.joining-bg h4 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.text-color {
+    color: rgb(255, 0, 0);
+    ;
+}
+
+.primary-btn{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    padding: 15px 30px;
+    margin-top: 40px;
+}
+
+.primary-btn a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* ----------- Join us now section style ended --------------*/
