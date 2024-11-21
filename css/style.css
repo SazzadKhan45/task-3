@@ -1,0 +1,69 @@
+/* ------- font-family: Merriweather ----------*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* ------font-family: "Inter" --------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* ------ universal sector ------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-area {
+    width: 85%;
+    margin: auto;
+}
+
+/* ------ common style section here -----------*/
+
+
+
+/* ------ common style section ended -----------*/
+
+
+/* --------------- hero banner section style here --------- */
+
+.hero-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-image: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/Banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.hero-bg p {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.hero-bg h3 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding: 16px 345px;
+    text-align: center;
+}
+
+/* ------------- hero banner section style ended --------- */
+
+
+/* --------- discount 65% OFF style start here ------------*/
+
+.Discount-area{
+    text-align: center;
+}
+
+/* --------- discount 65% OFF style ended ------------*/
