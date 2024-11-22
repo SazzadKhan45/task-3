@@ -280,3 +280,66 @@
 }
 
 /* ---------- Coming Soon offer section style ended ----------*/
+
+/* ------  Holidays Sale 50% section start style here -------------*/
+
+.Holidays-Sale-bg{
+    height: 986px;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-bottom: 120px;
+}
+
+.Holidays-Sale-header {
+    text-align: center;
+}
+
+.Holidays-Sale-header-description {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.Holidays-Sale-header h2 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    margin: 16px 0 28px 0;
+}
+
+.Holidays-color{
+    color: rgb(255, 0, 0);
+}
+
+.Holidays-Sale-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 0 120px;
+    margin-bottom: 64px;
+}
+
+.bonous-box{
+    display: flex;
+    gap: 177px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Discount-image{
+    padding-bottom: 150px;
+}
+
+
+/* ------  Holidays Sale 50% section start style ended -------------*/
+
+/* ------ Our Awesome Portfolio style here --------------------*/
+
+
+/* ------ Our Awesome Portfolio style ended --------------------*/
