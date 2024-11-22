@@ -283,12 +283,13 @@
 
 /* ------  Holidays Sale 50% section start style here -------------*/
 
-.Holidays-Sale-bg{
+.Holidays-Sale-bg {
     height: 986px;
     background-image: url(../images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom;
     margin-bottom: 120px;
+    background-size: 100% auto;
 }
 
 .Holidays-Sale-header {
@@ -311,7 +312,7 @@
     margin: 16px 0 28px 0;
 }
 
-.Holidays-color{
+.Holidays-color {
     color: rgb(255, 0, 0);
 }
 
@@ -325,14 +326,14 @@
     margin-bottom: 64px;
 }
 
-.bonous-box{
+.bonous-box {
     display: flex;
     gap: 177px;
     justify-content: center;
     align-items: center;
 }
 
-.Discount-image{
+.Discount-image {
     padding-bottom: 150px;
 }
 
@@ -341,5 +342,52 @@
 
 /* ------ Our Awesome Portfolio style here --------------------*/
 
+.Top-seling {
+    margin-bottom: 96px;
+}
+
+.Portfolio-info h5 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+}
+
+.Portfolio-info h3 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 16px 0 22px 0;
+}
+
+.Portfolio-info p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.image-pack {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-pack img {
+    width: 100%;
+    height: 100%;
+}
 
 /* ------ Our Awesome Portfolio style ended --------------------*/
